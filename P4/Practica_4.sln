@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Logica", "Projects\Logica\Logica.vcxproj", "{1C890865-F81E-4B99-8CAC-7A9584CA119E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9389CDD6-987F-47D3-883C-6252571F15D7} = {9389CDD6-987F-47D3-883C-6252571F15D7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PC", "Projects\PC\PC.vcxproj", "{9389CDD6-987F-47D3-883C-6252571F15D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{BC477833-0F95-4ED7-B10B-369B655705DB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Common", "Projects\Common\Common.vcxproj", "{481BD51D-64EE-474C-811D-E8B52ED2C7A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C890865-F81E-4B99-8CAC-7A9584CA119E}.Debug|x64.ActiveCfg = Debug|x64
+		{1C890865-F81E-4B99-8CAC-7A9584CA119E}.Debug|x64.Build.0 = Debug|x64
+		{1C890865-F81E-4B99-8CAC-7A9584CA119E}.Release|x64.ActiveCfg = Release|x64
+		{1C890865-F81E-4B99-8CAC-7A9584CA119E}.Release|x64.Build.0 = Release|x64
+		{9389CDD6-987F-47D3-883C-6252571F15D7}.Debug|x64.ActiveCfg = Debug|x64
+		{9389CDD6-987F-47D3-883C-6252571F15D7}.Debug|x64.Build.0 = Debug|x64
+		{9389CDD6-987F-47D3-883C-6252571F15D7}.Release|x64.ActiveCfg = Release|x64
+		{9389CDD6-987F-47D3-883C-6252571F15D7}.Release|x64.Build.0 = Release|x64
+		{481BD51D-64EE-474C-811D-E8B52ED2C7A0}.Debug|x64.ActiveCfg = Debug|x64
+		{481BD51D-64EE-474C-811D-E8B52ED2C7A0}.Debug|x64.Build.0 = Debug|x64
+		{481BD51D-64EE-474C-811D-E8B52ED2C7A0}.Release|x64.ActiveCfg = Release|x64
+		{481BD51D-64EE-474C-811D-E8B52ED2C7A0}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9389CDD6-987F-47D3-883C-6252571F15D7} = {BC477833-0F95-4ED7-B10B-369B655705DB}
+		{481BD51D-64EE-474C-811D-E8B52ED2C7A0} = {BC477833-0F95-4ED7-B10B-369B655705DB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {43AEC89C-109F-49A2-9C17-7439716B954F}
+	EndGlobalSection
+EndGlobal
